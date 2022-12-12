@@ -1,14 +1,11 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.time.Duration;
-
 public class GiftsTests extends BaseUI{
 
     @Test
     public void giftsTab() {
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(7));
         driver.findElement(Locators.LINK_GIFT).click();
         driver.findElement(Locators.INPUT_SEARCH).sendKeys(Data.searchTextForBear);
         WebElement buttonSearch = driver.findElement(Locators.BUTTON_SEARCH);

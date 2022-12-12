@@ -10,7 +10,10 @@ public class Data {
     //Photo page
     public static final String expectedTitlePhotos = "Ukrainian women photos";
     //PrettyWomen page
+    public static String countOfAccountsBetween29and50;
     public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
+
+
     //Registration
     public static final String emailValues = "email@email.com";
     public static final String passwordValues = "pass1234";
