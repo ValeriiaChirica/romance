@@ -13,10 +13,11 @@ public class Data {
     public static String countOfAccountsBetween29and50;
     public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
-
     //Registration
-    public static final String emailValues = "email@email.com";
-    public static final String passwordValues = "pass1234";
+    public static String email;
+    public static  String nickname;
+    public static String password;
+    public  static String number;
     //Sign in
     public static final String passwordSignInValues = "pass12345";
     public static final String emailSignInValues = "email@email.com";

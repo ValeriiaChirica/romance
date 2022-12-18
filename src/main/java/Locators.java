@@ -14,8 +14,8 @@ public class Locators {
     public static final By LINK_HOW_IT_WORKS = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
     //Photo page
     public static final By LINK_PHOTOS = By.xpath("//a[@href='https://romanceabroad.com/media/index']");
-    public static final By ALBUM_TYPE = By.xpath("//select[@id='album_id']");
-    public static final By COMMENT_COUNT = By.xpath("//div/*[@class='g-flatty-block__control form-inline']//span[@class='form-group']//select");
+//    public static final By ALBUM_TYPE = By.xpath("//select[@id='album_id']");
+//    public static final By COMMENT_COUNT = By.xpath("//div/*[@class='g-flatty-block__control form-inline']//span[@class='form-group']//select");
 
     public static final By SORT_BY_PHOTOS = By.xpath("//*[@id='gallery_media_sorter']//select[@class='form-control']");
     //Pretty women page
@@ -24,6 +24,11 @@ public class Locators {
     public static final By MAX_AGE_DROP_DOWN_LIST = By.cssSelector("#age_max");
     public static final By BUTTON_SEARCH_AGES = By.cssSelector("#main_search_button_user_advanced");
     public static final By COUNT_OF_ACCOUNTS = By.cssSelector(".st-info");
+    public static final By LIST_VIEW = By.cssSelector(".fa.fa-list");
+    public static final By SEND_MESSAGE_OPTIONS = By.xpath("//*[@id='item-block-360']//button[@class='btn btn-primary-inverted dropdown-toggle']");
+    public static final By SEND_KISSES = By.xpath("//*[@id='item-block-360']//li//a[@title='Send a kiss']");
+    public static final By LOG_IN_OR_REGISTER = By.xpath("//*[@class='content-block load_content']");
+
     //Registration
     public static final By BUTTON_REGISTRATION = By.cssSelector("#show-registration-block");
     public static final By TEXT_FIELD_EMAIL = By.xpath("//input[@id='email']");
@@ -52,7 +57,7 @@ public class Locators {
     //Home page
     public static final  By BUTTON_YOU_TUBE = By.xpath("//button[@class='ytp-large-play-button ytp-button ytp-large-play-button-red-bg']");
     public static final  By IFRAME_ELE = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
-    public static final  By IMG_ON_HOME_PAGE_SLIDES = By.xpath("//img[@src='/img/portfolio/slideimg4.jpg'] ");
+   // public static final  By IMG_ON_HOME_PAGE_SLIDES = By.xpath("//img[@src='/img/portfolio/slideimg4.jpg'] ");
 
 
 
