@@ -41,8 +41,8 @@ public class HomePage extends BaseActions {
         WebElement locationLviv = driver.findElement(Locators.DROP_DOWN_REGION_LVIV);
         locationLviv.click();
         WebElement checkBoxOnForRegistration = driver.findElement(Locators.CHECK_BOX_ON_REGISTRATION);
-        checkBoxOnForRegistration.click();
-        if (checkBoxOnForRegistration.isSelected()) {
+        if (!checkBoxOnForRegistration.isSelected()) {
+            checkBoxOnForRegistration.click();
             System.out.println("Check Box is selected");
         }
     }
